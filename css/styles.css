@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* Replace with your background image */
+  background: url("your-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cover-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* Optional dark tint overlay for readability */
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: white;
+}
+
+.cover-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.cover-text {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cover-nav {
+  margin-bottom: 2rem;
+}
+
+.cover-nav a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.cover-nav a:hover {
+  text-decoration: underline;
+}
