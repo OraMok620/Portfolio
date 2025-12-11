@@ -3,11 +3,32 @@ html, body {
   margin: 0;
 }
 
+header {
+  position: absolute;
+  right: 20px;   
+  top: 20px;    
+}
+
+.cover-nav {
+  margin-bottom: 2rem;
+}
+
+.cover-nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.cover-nav a:hover {
+  text-decoration: underline;
+}
+
 body {
-  /* Replace with your background image */
   background: url("your-background.jpg") no-repeat center center fixed;
   background-size: cover;
+  background-color: rgba(135, 135, 135, 0.5);
 }
+
 
 .cover-container {
   height: 100%;
@@ -15,11 +36,9 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-  /* Optional dark tint overlay for readability */
-  background-color: rgba(0, 0, 0, 0.5);
-
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .cover-heading {
@@ -33,16 +52,3 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.cover-nav {
-  margin-bottom: 2rem;
-}
-
-.cover-nav a {
-  color: white;
-  margin: 0 0.5rem;
-  text-decoration: none;
-}
-
-.cover-nav a:hover {
-  text-decoration: underline;
-}
